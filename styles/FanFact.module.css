@@ -1,0 +1,27 @@
+.fanFact{
+    @apply
+    my-28
+    xl:mt-28
+    grid
+    lg:grid-cols-4
+    grid-cols-1
+    gap-y-24
+    flex
+    justify-between
+    items-center
+    text-center
+    text-white
+}
+
+.fanFact h2{
+    @apply
+    text-[4.8rem]
+    leading-[5.8rem]
+    font-bold
+}
+
+.fanFact p{
+    @apply
+    text-[2rem]
+
+}

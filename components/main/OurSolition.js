@@ -1,5 +1,9 @@
+import styles from '../../styles/OurSolution.module.css'
+
 export default function OurSolition() {
   return (
-    <div>OurSolition</div>
+    <div>
+
+    </div>
   )
 }

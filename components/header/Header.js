@@ -25,9 +25,9 @@ export default function Header() {
           </li>
         </ul>
       </nav>
-      <button>
+      
       <img className={styles.header__menuBar} src="/three_line_header.svg" alt="menuStick" />
-      </button>
+      
        
     </>
   )

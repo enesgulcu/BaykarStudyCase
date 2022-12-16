@@ -4,21 +4,78 @@
     flex
     flex-wrap
     relative
+    justify-start
+    xl:justify-end
+    
+    sm:justify-center
+}
+
+.heroSection__topPart{
+    @apply
+    w-full
+    flex
+    xl:justify-end
+    justify-center
+    items-center
+    flex-wrap
+    xl:translate-x-28
 
 }
 
 .banner__card{
+    @apply
+    xl:translate-x-[5rem]
+    flex
+    flex-col
+    justify-end
+    items-center
+
+    md:px-0
     
 }
 
 .banner__info{
-
+    @apply
+    mt-12
+    text-white
+    max-w-[59rem]
+    xl:translate-x-[-3.4rem]
+    mb-16
 }
+.banner__info p{   
+    @apply
+    text-left
+    md:text-center  
+    text-[1.6rem]
+    md:text-[2.4rem]
+}
+
+.banner__info button{   
+    @apply
+    md:ml-[5rem]
+}
+
+.banner__scrollDown{   
+    @apply
+   ml-[70%]
+   translate-y-20
+   hidden
+   xl:inline-block
+    
+}
+
 
 .heroImage{
-
+    @apply
+    xl:translate-y-[15rem]
 }
 
-.heroSideImage{
 
+
+.heroSideImage{
+    @apply
+    xl:absolute
+    xl:w-1/2
+    left-[-5%]
+    bottom-[-16.5rem]
 }

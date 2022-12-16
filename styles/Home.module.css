@@ -7,6 +7,7 @@
   justify-items-center
   items-center
   gap-20
+  px-[2.4rem]
 }
 
 .leftSideGrid{
@@ -82,6 +83,7 @@
 .header__menuBar{
   @apply
   h-[1.2rem]
+  cursor-pointer
 }
 
 

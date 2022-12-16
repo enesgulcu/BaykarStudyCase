@@ -7,8 +7,25 @@
   padding: 0px;
   margin: 0px;
   font-size: 10px;
+
 }
 body{
   @apply
   bg-first;
+}
+
+button{
+  @apply  
+  flex
+  justify-center
+  items-center
+  gap-6
+  w-[20rem]
+  h-[6rem]
+  rounded-[3rem]
+  bg-third
+  text-first
+  font-medium
+  text-[1.8rem]
+  mt-[3rem]
 }
