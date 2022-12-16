@@ -1,13 +1,98 @@
-.header{
+.home{
   @apply
-  bg-red-600
-  p-4
-  m-4
+  container
+  mx-auto
+  flex
+  flex-col
+  justify-items-center
+  items-center
+  gap-20
 }
 
-.header__nav{
+.leftSideGrid{
   @apply
-  bg-red-600
-  p-4
-  m-4
+  absolute
+  sm:max-w-[480px]
+  max-w-[200px]
+
+}
+
+.topEllipse{
+  @apply
+  flex
+  justify-between
+  absolute
+  z-10
+  w-full
+}
+
+.topEllipse img{
+  @apply
+  inline-block
+  left-0
+  opacity-80
+  max-h-[340px]
+
+  
+}
+
+.header{
+  @apply
+  relative
+  z-20
+  w-full
+  flex  
+  justify-between
+  items-center
+  max-w-[90%]
+  md:mt-[3rem]
+  mt-[4.8rem]
+}
+
+.header ul{
+  @apply
+  flex
+  justify-between
+  items-center
+  xl:gap-20
+  lg:gap-16
+  md:gap-14
+  gap-4
+  text-white
+}
+
+ .header ul li a{ /* nav links */
+  @apply
+  xl:text-[1.8rem]
+  lg:text-[1.8rem]
+  md:text-[1.6rem]
+  text-[1.4rem]
+
+}
+
+.header__logo{
+  @apply
+  w-[7.6rem]
+  h-[3.2rem]
+
+  md:w-[10rem]
+  md:h-[6rem]
+}
+
+.header__menuBar{
+  @apply
+  h-[1.2rem]
+}
+
+
+.main{
+  @apply
+  relative
+  z-20
+}
+
+.footer{
+  @apply
+  relative
+  z-20
 }
