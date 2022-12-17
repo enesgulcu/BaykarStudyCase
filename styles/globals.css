@@ -29,3 +29,9 @@ button{
   text-[1.8rem]
   mt-[3rem]
 }
+
+section{
+  @apply
+  flex
+  justify-center
+}

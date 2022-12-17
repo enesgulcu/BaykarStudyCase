@@ -1,3 +1,7 @@
+.main{
+   
+}
+
 .heroSection{
     @apply
     w-full
@@ -6,6 +10,7 @@
     relative
     justify-start
     xl:justify-end
+    max-w-[144rem]
     
     sm:justify-center
 }
@@ -18,13 +23,11 @@
     justify-center
     items-center
     flex-wrap
-    xl:translate-x-28
 
 }
 
 .banner__card{
     @apply
-    xl:translate-x-[5rem]
     flex
     flex-col
     justify-end
@@ -68,6 +71,7 @@
 .heroImage{
     @apply
     xl:translate-y-[15rem]
+    xl:translate-x-[-4rem]
 }
 
 
@@ -75,7 +79,20 @@
 .heroSideImage{
     @apply
     xl:absolute
-    xl:w-1/2
-    left-[-5%]
+
+    left-[5%]
     bottom-[-16.5rem]
+    w-1/2
+}
+
+@media screen and  (max-width: 1470px){
+   
+    .heroSideImage{
+        @apply
+        xl:absolute
+        w-1/2
+        left-[5%]
+        bottom-[-23.5rem]
+    }
+    
 }

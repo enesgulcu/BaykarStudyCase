@@ -1,13 +1,15 @@
+.main{
+  @apply
+  w-full
+}
+
 .home{
   @apply
-  container
-  mx-auto
   flex
   flex-col
   justify-items-center
-  items-center
-  gap-20
-  px-[2.4rem]
+  gap-20 
+  items-center 
 }
 
 .leftSideGrid{
@@ -93,8 +95,28 @@
   z-20
 }
 
+.main__hero{
+  @apply
+  px-[2.4rem]
+ 
+}
+
+.main__aboutUs{
+  @apply
+  px-[2.4rem]
+
+}
+
+.main__fanFact{
+  @apply
+  px-[2.4rem]
+}
+
 .footer{
   @apply
+  px-[2.4rem]
   relative
   z-20
 }
+
+

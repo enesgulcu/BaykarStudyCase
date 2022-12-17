@@ -1,0 +1,116 @@
+.ourSolution{
+ @apply
+ w-screen
+ relative
+ grid
+ grid-cols-1
+ lg:grid-cols-5
+ items-center
+ justify-center 
+ absolute
+    z-10
+ 
+}
+
+.ourSolution__leftSide{
+    @apply
+    bg-third
+    w-full
+    h-full
+    order-2
+    lg:order-1
+    lg:col-span-2
+    lg:py-40
+    py-10
+    lg:pl-[2.4rem]
+    px-[2.4rem]
+    flex
+    justify-center
+    items-center
+}
+
+.ourSolution__rightSide{
+    @apply
+    lg:bg-second
+    text-white
+    w-full
+    h-full
+    order-1
+    lg:order-2
+    lg:col-span-3
+    md:py-20
+    py-10
+    lg:pr-[2.4rem]
+    px-[2.4rem]
+    mb-[4.1rem]
+    lg:mb-[0rem]
+    flex
+    flex-col
+    justify-center
+    items-center
+}
+
+.rightSide_info{
+    @apply
+    flex
+    justify-center
+    items-start
+    flex-col
+}
+
+.rightSide_info__details{
+    @apply
+    flex
+    justify-center
+    items-start
+    max-w-[41.5rem]
+    mb-[4.2rem]
+}
+
+.rightSide_info__details div{
+    @apply
+    flex
+    gap-[1.8rem]
+    flex-col
+}
+
+
+
+.rightSide_info h2{
+    @apply
+    font-bold
+    text-[2rem]
+    lg:text-[3rem]
+    xl:text-[4.8rem]    
+    mb-[4.5rem]
+}
+
+.rightSide_info h4{
+    @apply
+    text-[2rem]
+    lg:text-[2.4rem]
+    
+    
+}
+
+.rightSide_info p{
+    @apply
+    text-[1.6rem]
+}
+
+.ourSolution__leftSide img{
+    @apply
+    relative
+    translate-y-[-8.5rem]
+    md:translate-y-[0rem]
+    translate-x-0
+    xl:translate-x-52   
+}
+
+.rightSide_info img{
+    @apply
+    inline-block
+    mr-8
+    translate-y-2    
+}
+

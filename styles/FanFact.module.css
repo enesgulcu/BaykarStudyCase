@@ -1,16 +1,17 @@
 .fanFact{
     @apply
-    my-28
+    my-20
+    lg:my-40
     xl:mt-28
     grid
     lg:grid-cols-4
     grid-cols-1
     gap-y-24
-    flex
     justify-between
     items-center
     text-center
     text-white
+    w-full
 }
 
 .fanFact h2{
