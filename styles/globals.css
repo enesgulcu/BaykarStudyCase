@@ -30,8 +30,57 @@ button{
   mt-[3rem]
 }
 
+.whiteButton{
+  @apply
+  text-fourth
+  bg-transparent
+  border-2
+  border-fourth
+}
+
 section{
   @apply
   flex
   justify-center
 }
+
+@media screen and (max-width: 768px) {
+  .buttonForMobile{
+    background: none!important;
+    border: none!important;
+    margin: 0!important;
+    padding: 0!important;
+    color: #FFC93E;
+    font-size: 1.6rem;
+    width: 5rem!important;
+    height: 2rem!important;
+  }
+}
+
+.pagination{
+  @apply
+  flex
+  justify-center
+  items-center
+  my-20
+  gap-10
+}
+
+.pagination__button{
+  @apply
+  w-[2rem]
+  h-[2rem]
+  bg-fourth
+  rounded-full
+  cursor-pointer
+}
+
+ .pagination__button:focus, .pagination__button:hover{
+  @apply
+  w-[2rem]
+  h-[2rem]
+  bg-third
+  rounded-full
+  cursor-pointer
+}
+

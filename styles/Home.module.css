@@ -112,11 +112,32 @@
   px-[2.4rem]
 }
 
-.footer{
+.main__solition{
+  
+}
+
+.main__services{
   @apply
   px-[2.4rem]
-  relative
-  z-20
+}
+
+.main__projects{
+  @apply
+  px-[2.4rem]
+}
+
+.main__blog{
+  @apply
+  px-[2.4rem]
+}
+
+.main__catagories{
+  @apply
+  px-[2.4rem]
+}
+
+.footer{
+
 }
 
 
