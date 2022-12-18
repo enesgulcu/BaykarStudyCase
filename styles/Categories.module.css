@@ -1,0 +1,70 @@
+.catagories{
+    @apply
+    hidden
+    container
+    lg:flex
+    flex-col
+    gap-[5rem]
+    mb-[7rem]
+
+}
+
+.catagories__topbar{
+    @apply
+    w-full
+    flex
+    justify-start
+    items-center
+}
+
+.catagories__underbar{
+    @apply
+    flex
+    justify-center
+    items-center
+    gap-12
+}
+
+.catagories__underbar__details{
+    @apply
+    relative
+    bg-second
+    flex
+    flex-col
+    justify-center
+    items-center
+    gap-[5rem]
+    p-4
+    w-[24.5rem]
+    rounded-[5rem]
+}
+
+.catagories__underbar__details h4{
+    @apply
+    text-fourth
+    mb-[5rem]
+    font-bold
+    text-[2.4rem]
+}
+
+.catagories__topbar h2{
+    @apply
+    text-fourth
+    text-[4.8rem]
+    font-bold
+   
+}
+
+.catagories__underbar__leftArrow{
+    @apply
+    absolute
+    left-[-3rem]
+    top-[40%]
+}
+
+.catagories__underbar__rightArrow{
+    @apply
+    absolute
+    right-[-3rem]
+    top-[40%]
+}

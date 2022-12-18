@@ -1,0 +1,107 @@
+.footer{
+    @apply
+    flex
+    flex-col
+    justify-center
+    items-center
+    bg-second
+    
+}
+
+.footer__topbar{
+    @apply
+    container
+    w-full
+    px-20
+    my-[5rem]
+    flex
+    flex-col
+    lg:flex-row
+    justify-around
+    items-center
+    gap-20
+}
+
+.footer__topbar_leftSide {
+    @apply
+    relative
+}
+
+.footer__topbar_leftSide div{
+    @apply
+    bg-third
+    flex
+    flex-col
+    gap-4
+    px-16
+    lg:px-40
+    min-w-[32.7rem]
+    py-[6rem]
+    lg:py-[8rem]
+    rounded-[3rem]
+}
+
+.footer__topbar_leftSide h4{
+    @apply
+    text-[2rem]
+    font-semibold
+}
+
+.footer__topbar_rightSide{
+    @apply
+    flex
+    flex-col
+    lg:flex-row
+    justify-center
+    gap-[10rem]
+    lg:w-[50rem]
+    w-full
+
+}
+
+.footer__topbar_rightSide h5{
+    @apply
+    text-fourth
+    text-[1.8rem]
+    font-semibold
+}
+
+.footer__topbar_rightSide p{
+    @apply
+    text-fourth
+    text-[1.6rem]
+}
+
+.footer__underbar{
+    @apply
+    container
+    w-full
+    px-20
+    flex
+    flex-col
+    items-center
+    lg:flex-row
+    justify-between
+    gap-10
+    lg:gap-20
+    pb-[5rem]
+}
+
+.footer__underbar a, .footer__underbar p{
+    @apply
+    text-fourth
+    text-[1.6rem]   
+}
+
+.footer__underbar a{
+    @apply
+    hidden
+    lg:block
+}
+
+
+.footer__underbar__socialIcons{
+    @apply
+    flex
+    gap-10
+}

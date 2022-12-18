@@ -137,7 +137,8 @@
 }
 
 .footer{
-
+  @apply
+  w-full
 }
 
 

@@ -25,6 +25,20 @@
     lg:max-w-[125rem]
 }
 
+.ourservices__topbar button{
+    @apply
+    mt-0
+    h-[5.2rem]
+    w-[13rem]
+    text-[1.6rem]
+    font-semibold
+    border-transparent
+    lg:border-white
+    lg:text-white
+    text-third
+
+}
+
 .ourservices__underbar{ 
     @apply
     flex
@@ -89,15 +103,7 @@
     text-white
 }
 
-.ourservices__underbar_card button{
-    @apply
-    mt-0
-    h-[5.2rem]
-    w-[16rem]
-    text-[1.6rem]
-    font-semibold
 
-}
 
 @media screen and (min-width: 1200px) {
   

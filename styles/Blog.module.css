@@ -1,0 +1,157 @@
+.blog{
+    @apply
+    container
+    flex
+    flex-col
+    justify-center
+    items-center
+    mb-28
+    
+}
+
+.blog__topbar{
+    @apply
+    mb-[4rem]
+    flex
+    flex-col
+    justify-start
+    lg:justify-center
+    items-start
+    lg:items-center
+    container
+    px-2
+    sm:px-20
+    md:px-[11rem]
+    xl:px-32
+    w-full
+    lg:max-w-[125rem]
+    overflow-hidden
+}
+
+.blog__topbar__label{
+    @apply
+    flex
+    w-full
+    justify-between
+    lg:justify-center
+    xl:justify-start
+    items-center
+    
+}
+
+.blog__topbar__label button{
+    @apply
+    mt-0
+    h-[2rem]
+    w-[5rem]
+    text-[1.6rem]
+    font-semibold
+    lg:hidden
+    bg-transparent
+    text-third
+    text-right
+
+}
+
+
+
+.blog__underbar{ 
+    @apply
+    flex
+    md:flex-wrap
+    justify-start
+    md:justify-center
+    gap-[3.2rem]
+    flex-nowrap
+    overflow-hidden
+    lg:px-10   
+
+}
+
+.blog__underbar_card{
+    @apply   
+    flex
+    flex-col
+    justify-between
+    items-center
+    lg:items-start
+    gap-y-[1.6rem]
+    min-w-[100%]
+    md:max-w-[55rem]
+    md:min-w-[4rem]
+    transition-all
+    duration-300
+    relative    
+}
+
+.blog__ticket{
+    @apply
+    py-2
+    px-[1.2rem]
+    rounded-[1rem]
+    lg:text-first
+    text-third
+    bg-fourth
+    text-[1.2rem]
+    font-medium
+}
+
+
+.blog__topbar h2{
+    @apply
+    font-bold
+    text-[2.4rem]
+    lg:text-[4.8rem]
+    leading-[2.8rem]
+    lg:leading-[5.8rem]
+    text-white
+    py-2
+}
+
+.blog__underbar_card img:first{
+    @apply
+    w-full
+    lg:w-[55rem]
+}
+
+.blog__underbar_card h4{
+    @apply
+    font-bold
+    md:inline-block
+    text-[2rem]
+    text-center
+    lg:text-start
+    px-8
+    md:px-0
+    lg:pr-10
+    lg:text-[3rem]
+    leading-[3.8rem]
+    text-white
+}
+
+.blog__underbar_card p{
+    @apply
+    text-[1.6rem]
+    md:inline-block
+    leading-[3rem]
+    text-white
+}
+
+.blog__underbar_card button{
+    @apply
+    mt-0
+    h-[5.2rem]
+    w-[16rem]
+    text-[1.6rem]
+    font-semibold
+}
+
+
+
+@media screen and (min-width: 1200px) {
+  
+#rightSide{
+    transform: translateY(5rem)!important;
+}
+    
+}

@@ -1,0 +1,164 @@
+.ourprojects{
+    @apply
+    container
+    flex
+    flex-col
+    justify-center
+    items-center
+    mb-28
+    
+}
+
+.ourprojects__topbar{
+    @apply
+    mb-[4rem]
+    flex
+    flex-col
+    justify-start
+    lg:justify-center
+    items-start
+    lg:items-center
+    container
+    px-2
+    sm:px-20
+    md:px-[11rem]
+    xl:px-32
+    w-full
+    lg:max-w-[125rem]
+    overflow-hidden
+}
+
+.ourprojects__topbar__label{
+    @apply
+    flex
+    w-full
+    justify-between
+    lg:justify-center
+    items-center
+    
+}
+
+.ourprojects__topbar__label button{
+    @apply
+    mt-0
+    h-[2rem]
+    w-[5rem]
+    text-[1.6rem]
+    font-semibold
+    lg:hidden
+    bg-transparent
+    text-third
+    text-right
+
+}
+
+.ourprojects__topbar ul{
+    @apply
+    flex 
+    justify-center 
+    items-center 
+    gap-16
+    mt-10
+    
+}
+
+.ourprojects__topbar ul li{
+    @apply
+    text-[1.6rem]
+    lg:font-bold 
+    font-medium
+
+    text-white
+}
+.ourprojects__topbar ul li:hover{
+    @apply
+    text-[1.6rem]
+    lg:font-bold 
+    font-medium
+    text-third
+    cursor-pointer
+}
+
+
+.ourprojects__underbar{ 
+    @apply
+    flex
+    md:flex-wrap
+    justify-start
+    md:justify-center
+    gap-[3.2rem]
+    flex-nowrap
+    overflow-hidden
+    lg:px-10
+    
+
+}
+
+.ourprojects__underbar_card{
+    @apply   
+    flex
+    flex-col
+    justify-between
+    items-start
+    gap-y-12
+    min-w-[100%]
+    md:max-w-[55rem]
+    md:min-w-[4rem]
+    transition-all
+    duration-300
+    relative
+    
+}
+
+
+.ourprojects__topbar h2{
+    @apply
+    font-bold
+    text-[2.4rem]
+    lg:text-[4.8rem]
+    leading-[2.8rem]
+    lg:leading-[5.8rem]
+    text-white
+}
+
+.ourprojects__underbar_card img{
+    @apply
+    w-full
+    lg:w-[55rem]
+}
+
+.ourprojects__underbar_card h4{
+    @apply
+    font-bold
+    hidden
+    md:inline-block
+    text-[2.4rem]
+    leading-[3.6rem]
+    text-white
+}
+
+.ourprojects__underbar_card p{
+    @apply
+    text-[1.6rem]
+    hidden
+    md:inline-block
+    leading-[3rem]
+    text-white
+}
+
+.ourprojects__underbar_card button{
+    @apply
+    mt-0
+    h-[5.2rem]
+    w-[16rem]
+    text-[1.6rem]
+    font-semibold
+}
+
+@media screen and (min-width: 1200px) {
+  
+#rightSide{
+    transform: translateY(5rem)!important;
+}
+    
+}

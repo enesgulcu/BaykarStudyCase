@@ -1,0 +1,192 @@
+.clientscomments{
+    @apply
+    flex
+    flex-col
+    justify-center
+    items-center
+    mb-28
+    overflow-hidden
+    xl:max-w-[160rem]
+    xl:ml-56
+    lg:ml-0
+    mt-20
+    
+}
+
+.clientscomments__topbar{
+    @apply
+    mb-[4rem]
+    flex
+    flex-col
+    justify-start
+    lg:justify-center
+    items-start
+    lg:items-center
+    max-w-[75rem]
+    lg:max-w-[153rem]
+    px-10
+    
+    lg:px-0
+    w-full
+    overflow-hidden
+    
+}
+
+.clientscomments__topbar h2{
+    @apply
+    font-bold
+    text-[2.4rem]
+    lg:text-[4.8rem]
+    leading-[2.8rem]
+    lg:leading-[5.8rem]
+    text-white
+}
+
+.clientscomments__topbar__label{
+    @apply
+    flex
+    w-full
+    justify-between
+    xl:justify-start
+    lg:justify-center
+    items-center
+    lg:px-10
+    
+    
+}
+
+.clientscomments__topbar__label button{
+    @apply
+    mt-0
+    h-[2rem]
+    w-[10rem]
+    text-[1.6rem]
+    lg:hidden
+    bg-transparent
+    text-third
+    text-right
+
+}
+
+
+
+.clientscomments__underbar{ 
+    @apply
+    flex
+    sm:flex-wrap
+    xl:flex-nowrap
+    justify-start
+    md:justify-center
+    xl:justify-start
+    gap-[3.2rem]
+    flex-nowrap
+    overflow-hidden
+    w-full
+    px-[2.4rem]
+    
+
+}
+
+.clientscomments__underbar_card{
+    @apply 
+    bg-second
+    flex
+    flex-col
+    justify-between
+    items-start
+    max-w-[75rem]
+    rounded-[5rem]
+    p-12
+    md:p-24
+    gap-10
+    transition-all
+    duration-300
+    relative  
+    min-w-[85vw]
+    md:min-w-[4rem]
+    lg:min-w-[75rem]    
+}
+
+
+.underbar__userInfo{
+    @apply
+    flex
+    flex-col
+    lg:flex-row
+    gap-[2.4rem]
+    justify-between
+    items-center
+    w-full
+
+}
+
+.userInfo__leftSide{
+    @apply
+    flex
+    justify-start
+    items-center
+    gap-[2rem]
+}
+.userInfo__leftSide div{
+    @apply
+    flex
+    flex-col
+    justify-start
+    items-start
+    gap-[0.8rem]
+}
+
+.userInfo__leftSide h5{
+    @apply
+    text-white
+    text-[1.8rem]
+    font-medium
+}
+
+.userInfo__leftSide h6{
+    @apply
+    text-third
+    text-[1.6rem]
+    font-normal
+}
+
+.userInfo__rightSide{
+    @apply
+    flex
+    justify-end
+    items-center
+    gap-[0.8rem]
+}
+
+
+.clientscomments__icon{
+    @apply
+    opacity-20
+}
+
+
+.clientscomments__underbar_card p{
+    @apply
+    text-[1.6rem]
+    md:inline-block
+    leading-[3rem]
+    text-white
+}
+
+.clientscomments__underbar_card button{
+    @apply
+    mt-0
+    h-[5.2rem]
+    w-[16rem]
+    text-[1.6rem]
+    font-semibold
+
+}
+
+@media screen and (min-width: 1200px) {
+  
+#rightSide{
+    transform: translateY(5rem)!important;
+}
+    
+}

@@ -15,7 +15,9 @@ export default function OurServices() {
         <h2>Service we can</h2>
         <h2>help  you</h2>
       </div>        
-        <button className='buttonForMobile' >See All</button>
+        <button className='whiteButton' >See All
+        <img className='hidden lg:inline-block' src="/VectorWhite.svg" alt="button_arrow" />
+        </button>
       </div>
       <div className={styles.ourservices__underbar}>
         <div style={{transform: `translateX(-${paginationValue}px)`}} className={`${styles.ourservices__underbar_card} xl:rounded-tl-[5rem]`}>
