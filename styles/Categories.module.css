@@ -60,6 +60,7 @@
     absolute
     left-[-3rem]
     top-[40%]
+    cursor-pointer
 }
 
 .catagories__underbar__rightArrow{
@@ -67,4 +68,5 @@
     absolute
     right-[-3rem]
     top-[40%]
+    cursor-pointer
 }
