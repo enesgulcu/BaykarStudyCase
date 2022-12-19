@@ -22,7 +22,7 @@ export default function Index() {
         transition-all duration-200 [box-shadow:0_10px_0_0_#f81b1b,0_15px_0_0_#851200]
         border-b-[1px] border-red-400
     '>
-		  <span class='flex flex-col justify-center items-center h-full text-white font-bold text-[2rem] '>Javascript Table</span>
+		  <span className='flex flex-col justify-center items-center h-full text-white font-bold text-[2rem] '>Javascript Table</span>
 	  </div>
     </Link>
     </div>

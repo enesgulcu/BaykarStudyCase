@@ -1,0 +1,65 @@
+.table{
+ @apply
+ flex
+ flex-col
+ justify-center
+ items-center
+ border-2
+ border-fourth
+}
+
+.table__title{
+    @apply
+    bg-third
+    text-first
+    flex
+    justify-around
+    items-center
+    mt-20
+    rounded-xl
+    w-full
+
+}
+
+.table__title__row{
+    @apply
+    container
+    flex
+    justify-around
+    items-center
+}
+
+.table__title__row li{
+    @apply
+    text-[1.5rem]
+    font-bold
+}
+
+.table__details{
+    @apply
+    flex
+    flex-col
+    justify-start
+    items-start
+    bg-second
+    m-4
+}
+
+.table__details__row {
+    @apply
+    flex
+    w-full
+    justify-around
+    bg-fourth
+    mt-10
+    rounded-xl
+}
+
+.table__details__row li{
+    @apply
+    text-[1.5rem]
+    font-bold
+    p-4
+}
+
+
