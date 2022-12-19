@@ -1,65 +1,98 @@
-.table{
- @apply
- flex
- flex-col
- justify-center
- items-center
- border-2
- border-fourth
-}
-
-.table__title{
+.main{
     @apply
-    bg-third
-    text-first
-    flex
-    justify-around
-    items-center
-    mt-20
-    rounded-xl
-    w-full
-
-}
-
-.table__title__row{
-    @apply
-    container
-    flex
-    justify-around
-    items-center
-}
-
-.table__title__row li{
-    @apply
-    text-[1.5rem]
-    font-bold
-}
-
-.table__details{
-    @apply
+    max-w-[100rem]
     flex
     flex-col
-    justify-start
+    justify-center
     items-start
-    bg-second
-    m-4
+    mt-10
+    mx-auto
 }
 
-.table__details__row {
+.table{
+    @apply
+    w-full
+}
+
+.table__head{
+    @apply
+    bg-third
+    grid
+    grid-cols-5
+    justify-between
+    items-center
+    gap-4
+    rounded-lg
+     
+}
+
+.table__head span{
     @apply
     flex
-    w-full
-    justify-around
-    bg-fourth
-    mt-10
-    rounded-xl
-}
-
-.table__details__row li{
-    @apply
-    text-[1.5rem]
     font-bold
+    text-first
+    text-[1.5rem]
+    justify-center
+    items-center
     p-4
+    m-2
 }
 
+.table__body{
+    @apply
+    bg-gray-50
+    w-full
+    border-b-4
+    border-third
+    my-4
+    rounded-lg
+    cursor-pointer
+    select-none
+}
 
+.table__body__title{
+    @apply
+    grid
+    grid-cols-5
+    justify-between
+    items-center
+    gap-4
+}
+
+.table__body__details{
+    @apply
+    bg-second
+    p-4
+    border-t-2
+    container
+    hidden
+    grid-cols-5
+    justify-items-center
+}
+
+.table__body__details p{
+    @apply
+    text-third
+    text-[1.4rem]
+    font-semibold
+}
+
+.table__body__title span{
+    @apply
+    flex
+    font-semibold
+    text-[1.2rem]
+    justify-center
+    items-center
+    p-4
+    m-2
+}
+
+.underbar{
+    @apply
+    w-full
+    flex
+    justify-center
+    items-center
+    gap-20
+}
