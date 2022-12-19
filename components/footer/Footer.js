@@ -9,7 +9,7 @@ export default function Footer() {
               <h4>Sign Up to Receive Product Updates and More</h4>
               <span className='relative '>
                 <img className="absolute bottom-3 right-0 cursor-pointer" src='footerMailArrow.svg'></img>
-                <input type="email" id="mail" rows="1" class="w-full px-0 text-[1.6rem] h-12  border-b border-first placeholder-first text-first bg-transparent" placeholder="youremail@gmail.com" required></input>
+                <input type="email" id="mail" rows="1" className="w-full px-0 text-[1.6rem] h-12  border-b border-first placeholder-first text-first bg-transparent" placeholder="youremail@gmail.com" required></input>
               </span>
             </div>
           </div>

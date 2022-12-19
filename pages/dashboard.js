@@ -1,4 +1,5 @@
 import styles from "../styles/Dashboard.module.css";
+import CsvDownloadButton from 'react-json-to-csv'
 
 import { useEffect, useState } from "react";
 import axios from "axios";
@@ -45,6 +46,9 @@ export default function Dashboard() {
 
   return (
     <div className={styles.main}>
+    <CsvDownloadButton data={filterData} className='p-0 m-4 w-40 h-10 text-[1.2rem] rounded' 
+    filename='data.csv'
+     >CSV Download</CsvDownloadButton>
     <div className={styles.table}>
       <div className={styles.table__head}>
       <span>Gurup Seçimi</span>
@@ -82,6 +86,7 @@ export default function Dashboard() {
                 <span>{item.capital}</span>
               </div>
               <div className={styles.table__body__details} id={`x${index+1}`}>
+                <p>{`-`}</p>
                 <p>{`Nüfus: ${item.population}`}</p>
                 <p>{`Kıta: ${item.region}`}</p>
                 <p><a href={item.maps.googleMaps} className='text-first text-[1.4rem] p-2 rounded-xl bg-white font-bold cursor-help'>Konum</a></p>
@@ -90,6 +95,7 @@ export default function Dashboard() {
                   <span key={index}> {border} - </span>
                 ))}
                 </p>
+                
               </div>
             </div>          
         )        
