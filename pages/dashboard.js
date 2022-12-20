@@ -119,7 +119,7 @@ export default function Dashboard() {
         type="search"
         value={search}
         onChange={filter}
-        className="w-[60vw] px-4 py-4 mx-auto my-4 bg-fourt text-xl border rounded-md shadow-sm ring-white focus:outline-none ring-1 focus:ring-2 focus:ring-third focus:border-transparent"
+        className="w-[60rem] px-4 py-4 mx-auto my-4 bg-fourt text-xl border rounded-md shadow-sm ring-white focus:outline-none ring-1 focus:ring-2 focus:ring-third focus:border-transparent"
         placeholder="Ülke İsmine Göre Arayınız..."
       />
       <div id="editable" style={{display:"none"}} className="gap-4 justify-center items-center m-2 p-2 bg-third rounded-xl w-full flex-wrap mx-auto">
