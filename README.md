@@ -1,3 +1,7 @@
+##
+web page dome live:
+https://baykar-study-case.vercel.app/
+
 ## Giriş Notu
 (frontend CSS) => %96
 (javascript Data Table) => %98
