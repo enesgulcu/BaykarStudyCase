@@ -170,7 +170,6 @@ export default function Dashboard() {
                     (item) => item.name.common != editIndex.name
                   )
                 );
-                    console.log(allData)
                     setAllData((current) => [...current, data]);
                     setFilterData((current) =>
                   current.filter(
