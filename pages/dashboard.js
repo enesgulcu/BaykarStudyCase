@@ -72,10 +72,19 @@ export default function Dashboard() {
   };
 
   useEffect(() => {
-    axios.get("http://localhost:3000/api/countries").then((response) => {
-      setAllData(response.data);
-      setFilterData(response.data);
-    });
+    // this part updated for vercel
+  if(window.location.origin){
+      axios.get(window.location.origin+"/api/countries").then((response) => {
+        setAllData(response.data);
+        setFilterData(response.data);
+      })
+    }
+    else{
+      axios.get("http://localhost:3000/api/countries" || "https://baykar-study-case.vercel.app/api/countries").then((response) => {
+        setAllData(response.data);
+        setFilterData(response.data);
+      })
+    }
   }, []);
 
   return (
@@ -115,13 +124,15 @@ export default function Dashboard() {
     filename='data.csv'
      >CSV Download</CsvDownloadButton>
      </div>
+    <div className="w-full flex justify-center items-center">
     <input
         type="search"
         value={search}
         onChange={filter}
-        className="w-[60rem] px-4 py-4 mx-auto my-4 bg-fourt text-xl border rounded-md shadow-sm ring-white focus:outline-none ring-1 focus:ring-2 focus:ring-third focus:border-transparent"
+        className="w-1/2 px-4 py-4 mx-auto my-4 bg-fourt text-xl border rounded-md shadow-sm ring-white focus:outline-none ring-1 focus:ring-2 focus:ring-third focus:border-transparent"
         placeholder="Ülke İsmine Göre Arayınız..."
       />
+    </div>
       <div id="editable" style={{display:"none"}} className="gap-4 justify-center items-center m-2 p-2 bg-third rounded-xl w-full flex-wrap mx-auto">
         <input  id="editable_name" type="text" className=" px-4 py-4 mx-auto my-4 bg-second text-xl border rounded-md shadow-sm ring-white focus:outline-none ring-1 focus:ring-2 focus:ring-third focus:border-transparent"
         placeholder={editIndex.name} />
