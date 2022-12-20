@@ -66,8 +66,10 @@
     border-t-2
     container
     hidden
+    max-w-full
     grid-cols-5
     justify-items-center
+    w-full
 }
 
 .table__body__details p{
