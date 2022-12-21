@@ -20,6 +20,7 @@ veriler güncellenebilir - silinebilir - guruplanabilir - aramaya göre listelen
 tüm guruplama - listeleme - arama işlemlerine göre CSV çıktı alınabilir.
 mobil - tablet - bilgisayar - televizyon ölçülerine uyumlu tam responsive tasarlanmıştır.
 API ile veri çekilmiş, çekilen veriler filtrelenerek listelenmiştir. 
+Tailwind Module CSS kullanılmıştır.
 
 ## ENES GÜLCÜ
 medyanestv@gmail.com
